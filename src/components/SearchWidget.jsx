@@ -1,15 +1,25 @@
 import React from 'react';
 import Form from './Form';
 import Input from './Input';
+import Logo from './Logo';
+import Button from './Button';
 
-export default SearchWidget = (props) => {
+export default function SearchWidget(props) {
   return (
-    <SearchContainer>
-      <Logo />
+    <div className="search__container">
+      <Logo>
+        <img src={props.logo} />
+      </Logo>
       <Form className="search__form main__search">
-        <Input placeholder="Поиск..."></Input>
-        <Button className="button">Поиск</Button>
+        <Input
+          type="search"
+          className="search__input"
+          placeholder="Поиск..."
+        ></Input>
+        <Button className="button" type="submit">
+          Поиск
+        </Button>
       </Form>
-    </SearchContainer>
+    </div>
   );
-};
+}

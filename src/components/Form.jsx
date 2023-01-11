@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default Form = (props) => {
+export default function Form(props) {
   const onSubmitHandler = (event) => {
     props.onSubmit(event);
   };
@@ -15,4 +15,4 @@ export default Form = (props) => {
       {props.children}
     </form>
   );
-};
+}
