@@ -15,3 +15,5 @@ export const logoURL = [
 ];
 
 export const newsTitleArray = ['Сейчас в СМИ', 'в Челябинске', 'Рекомендуем'];
+
+export const servicesTitleArray =['Карты', 'Погода', 'Эфир', 'Телепрограмма']

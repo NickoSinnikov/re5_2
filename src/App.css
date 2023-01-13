@@ -36,3 +36,36 @@
     transform: rotate(360deg);
   }
 }
+
+/*#########################################*/
+
+*, body{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+
+li{
+  list-style: none;
+}
+
+.container, .news__block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 1400px;
+
+  margin: auto;
+}
+
+.news__block{
+  width: 800px;
+}
+.title__list, .search__container{
+  width: 100%;
+  display: flex;
+  align-self:center;
+  justify-content: left;
+}
