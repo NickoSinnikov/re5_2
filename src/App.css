@@ -119,5 +119,15 @@ a {
 
 .services-item__section{
   justify-content: space-between;
-  color: aqua;
+}
+
+.services-item-title__section{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.title__item{
+  font-size: 20px;
+ font-weight: 500;
+  margin-right: 10px;
 }

@@ -8,7 +8,7 @@ export default function SearchWidget(props) {
   return (
     <div className="search__container">
       <Logo className="main-logo">
-        <img src={props.logo} style={{width:'100%'}}/>
+        <img src={props.logo} style={{ width: '100%' }} />
       </Logo>
       <Form className="search__form main__search">
         <Input
@@ -16,9 +16,7 @@ export default function SearchWidget(props) {
           className="search__input"
           placeholder="Поиск..."
         ></Input>
-        <Button className="button">
-          Найти
-        </Button>
+        <Button className="button">Найти</Button>
       </Form>
     </div>
   );

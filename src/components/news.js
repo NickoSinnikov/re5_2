@@ -14,6 +14,6 @@ export const logoURL = [
   'https://cdn.worldvectorlogo.com/logos/simfy.svg',
 ];
 
-export const newsTitleArray = ['Сейчас в СМИ', 'в Челябинске', 'Рекомендуем'];
+export const newsTitleArray = ['Сейчас в СМИ', 'В Челябинске', 'Рекомендуем'];
 
-export const servicesTitleArray =['Карты', 'Погода', 'Эфир', 'Телепрограмма']
+export const servicesTitleArray = ['Карты', 'Погода', 'Эфир', 'Телепрограмма'];
